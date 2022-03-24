@@ -3,7 +3,7 @@ using System.Linq;
 using _413.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LmazonBookStore.Components
+namespace _413.Components
 {
     public class TypesViewComponent : ViewComponent
     {

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LmazonBookStore.Infrastrusture;
-using LmazonBookStore.Models;
+using _413.Infrastrusture;
+using _413.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace LmazonBookStore.Pages
+namespace _413.Pages
 {
     public class ShoppingCartModel : PageModel
     {

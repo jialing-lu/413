@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace LmazonBookStore.Migrations
+namespace _413.Migrations
 {
     [DbContext(typeof(BookstoreContext))]
     partial class BookstoreContextModelSnapshot : ModelSnapshot
@@ -16,7 +16,7 @@ namespace LmazonBookStore.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.22");
 
-            modelBuilder.Entity("LmazonBookStore.Models.BasketLineItem", b =>
+            modelBuilder.Entity("_413.Models.BasketLineItem", b =>
                 {
                     b.Property<int>("LineID")
                         .ValueGeneratedOnAdd()
@@ -40,7 +40,7 @@ namespace LmazonBookStore.Migrations
                     b.ToTable("BasketLineItem");
                 });
 
-            modelBuilder.Entity("LmazonBookStore.Models.Books", b =>
+            modelBuilder.Entity("_413.Models.Books", b =>
                 {
                     b.Property<int>("BookId")
                         .ValueGeneratedOnAdd()
@@ -75,7 +75,7 @@ namespace LmazonBookStore.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("LmazonBookStore.Models.CheckOut", b =>
+            modelBuilder.Entity("_413.Models.CheckOut", b =>
                 {
                     b.Property<int>("CheckoutId")
                         .ValueGeneratedOnAdd()
@@ -118,13 +118,13 @@ namespace LmazonBookStore.Migrations
                     b.ToTable("CheckOut");
                 });
 
-            modelBuilder.Entity("LmazonBookStore.Models.BasketLineItem", b =>
+            modelBuilder.Entity("_413.Models.BasketLineItem", b =>
                 {
-                    b.HasOne("LmazonBookStore.Models.Books", "Books")
+                    b.HasOne("_413.Models.Books", "Books")
                         .WithMany()
                         .HasForeignKey("BooksBookId");
 
-                    b.HasOne("LmazonBookStore.Models.CheckOut", null)
+                    b.HasOne("_413.Models.CheckOut", null)
                         .WithMany("Lines")
                         .HasForeignKey("CheckoutId");
                 });
