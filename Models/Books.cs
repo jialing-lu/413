@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 // If you have enabled NRTs for your project, then un-comment the following line:
 // #nullable disable
 
-namespace LmazonBookStore.Models
+namespace _413.Models
 {
     public partial class Books
     {

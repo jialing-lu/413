@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace LmazonBookStore.Models.ViewModels
+namespace _413.Models.ViewModels
 {
     public class BooksViewModel
     {

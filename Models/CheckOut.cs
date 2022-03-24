@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace LmazonBookStore.Models
+namespace _413.Models
 {
     public class CheckOut
     {

@@ -1,7 +1,7 @@
 ﻿@page "/admin"
 @using Microsoft.AspNetCore.Authorization
 @attribute [Authorize]
-@model LmazonBookStore.Pages.Admin.IndexModel
+@model _413.Pages.Admin.IndexModel
 
 @{ Layout = null; }
 
@@ -9,14 +9,14 @@
 
 <html>
     <head>
-        <title>Yuze Book Store Admin</title>
+        <title>Jialing Book Store Admin</title>
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
         <base href="/"/>
     </head>
 
     <body>
-        <component type="typeof(LmazonBookStore.Pages.Admin.Routed)" render-mode="Server" />
+        <component type="typeof(_413.Pages.Admin.Routed)" render-mode="Server" />
         <script src="/_framework/blazor.server.js"></script>
 
     </body>

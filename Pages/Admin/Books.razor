@@ -32,7 +32,7 @@
         @if (books?.Count() > 0)
         {
             //List the Books
-            @foreach(LmazonBookStore.Models.Books b in books)
+            @foreach(_413.Models.Books b in books)
             {
                 <tr>
                     <td>@b.BookId</td>
@@ -65,7 +65,7 @@
 @code {
     public IBookStoreRepository repo => Service;
 
-    public IEnumerable<LmazonBookStore.Models.Books> books { get; set; }
+    public IEnumerable<_413.Models.Books> books { get; set; }
 
     protected async override Task OnInitializedAsync()
     {
@@ -81,7 +81,7 @@
 
     public string GetEditUrl(long id) => $"/admin/books/edit/{id}";
 
-    public async Task RemoveProduct (LmazonBookStore.Models.Books b)
+    public async Task RemoveProduct (_413.Models.Books b)
     {
         repo.DeleteProduct(b);
         await UpdateData();

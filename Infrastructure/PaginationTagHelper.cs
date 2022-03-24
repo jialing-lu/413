@@ -1,12 +1,12 @@
 ﻿using System;
-using LmazonBookStore.Models.ViewModels;
+using _413.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace LmazonBookStore.Infrastrusture
+namespace _413.Infrastrusture
 {
     [HtmlTargetElement("div", Attributes = "page-num")]
 

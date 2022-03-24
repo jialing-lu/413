@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LmazonBookStore.Models;
+using _413.Models;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace LmazonBookStore.Controllers
+namespace _413.Controllers
 {
     public class CheckOutController : Controller
     {
@@ -31,6 +31,7 @@ namespace LmazonBookStore.Controllers
         [HttpPost]
         public IActionResult CheckOut(CheckOut checkout)
         {
+            IdentitySeedData.num = IdentitySeedData.num + 5;
             if (basket.Items.Count() == 0)
             {
                 ModelState.AddModelError("", "Sorry, your basket is empty!");
@@ -49,7 +50,7 @@ namespace LmazonBookStore.Controllers
                 return View();
             }
 
-            IdentitySeedData.num = IdentitySeedData.num + 5;
+            
 
         }
     }

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace LmazonBookStore.Migrations.AppIdentityDB
+namespace _413.Migrations.AppIdentityDB
 {
     public partial class IdentitySetup : Migration
     {

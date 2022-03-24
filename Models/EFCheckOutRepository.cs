@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
-namespace LmazonBookStore.Models
+namespace _413.Models
 {
     public class EFCheckOutRepository : ICheckOutRepository
     {

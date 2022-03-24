@@ -2,7 +2,7 @@
 using System.Text.Json;
 using Microsoft.AspNetCore.Http;
 
-namespace LmazonBookStore.Infrastrusture
+namespace _413.Infrastrusture
 {
     public static class SessionExtensions
     {

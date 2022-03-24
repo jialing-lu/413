@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text.Json.Serialization;
-using LmazonBookStore.Infrastrusture;
+using _413.Infrastrusture;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LmazonBookStore.Models
+namespace _413.Models
 {
     public class SessionBasket : Basket
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LmazonBookStore.Models.ViewModels
+namespace _413.Models.ViewModels
 {
     public class PageInfo
     {

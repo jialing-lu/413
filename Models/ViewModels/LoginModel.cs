@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace LmazonBookStore.Models.ViewModels
+namespace _413.Models.ViewModels
 {
     public class LoginModel
     {

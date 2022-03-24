@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace LmazonBookStore.Models
+namespace _413.Models
 {
     public class EFBookStoreRepository : IBookStoreRepository
     {

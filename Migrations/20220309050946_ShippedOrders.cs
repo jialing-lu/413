@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace LmazonBookStore.Migrations
+namespace _413.Migrations
 {
     public partial class ShippedOrders : Migration
     {

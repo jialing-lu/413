@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LmazonBookStore.Models
+namespace _413.Models
 {
    
         public static class IdentitySeedData

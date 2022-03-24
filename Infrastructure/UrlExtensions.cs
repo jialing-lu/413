@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Http;
 
-namespace LmazonBookStore.Infrastrusture
+namespace _413.Infrastrusture
 {
     public static class UrlExtensions
     {
